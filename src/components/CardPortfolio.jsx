@@ -10,7 +10,7 @@ const CardPortfolio = ({img_port,li1, li2, li3, li4, url}) => {
 
   return (
     <figure className='portfolio-proyect'>
-    <img src={img_port}></img>
+    <img src={img_port}/>
 
     <ul className='buttons-card' onClick={redirectExternalUrl} >
         <li><i className='bx bx-radio-circle-marked green' onClick={redirectExternalUrl}></i><h4>{li1}</h4></li>
