@@ -13,7 +13,7 @@ const Portfolio = ( props ) => {
 <div className='portfolio-grid'>
 <CardPortfolio
 url='https://pokeeddex.netlify.app/'
-img_port='./public/img/pokeapi.png'
+img_port='/img/pokeapi.png'
 li1='HTML'
 li2='CSS'
 li3='JavaScript'
@@ -22,7 +22,7 @@ li4='React'
 <br/>
 <CardPortfolio
 url='https://rickandmorty33.netlify.app'
-img_port='./public/img/rickmorty.png'
+img_port='/img/rickmorty.png'
 li1='HTML'
 li2='CSS'
 li3='JavaScript'
@@ -32,7 +32,7 @@ li4='React'
 
 <CardPortfolio
 url='https://tourmaline-fudge-f10320.netlify.app'
-img_port='./public/img/ecomerce.png'
+img_port='/img/ecomerce.png'
 li1='HTML'
 li2='CSS'
 li3='JavaScript'
