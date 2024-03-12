@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/inicio.css';
-import prof from '../img/ImagenEnPixel.jpeg'
+import prof from '/public/img/ImagenEnPixel.jpeg'
 import Typed from 'typed.js';
 import { useTranslation } from "react-i18next";
 
